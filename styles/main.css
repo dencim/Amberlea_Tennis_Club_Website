@@ -20,7 +20,7 @@ a {
   height: 300px;
   margin: auto;
   margin-top: -220px;
-  padding-left: 40vw;
+  padding-left: 50vw;
 }
 
 .stroke-text {
@@ -43,6 +43,12 @@ a {
   background-image: url("../images/temp_banner3.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+/* Leagues Page */
+
+.dotted-bottom {
+  border-bottom: 1px dotted black;
 }
 
 @media only screen and (max-width: 600px) {
