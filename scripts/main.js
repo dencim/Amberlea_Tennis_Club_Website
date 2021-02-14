@@ -5,6 +5,15 @@ $(document).ready(function () {
     $(".navbar-burger").toggleClass("is-active");
     $(".navbar-menu").toggleClass("is-active");
   });
+
+  $(".delete").click(function () {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".modal").toggleClass("is-active");
+  });
+  $(".open").click(function () {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".modal").toggleClass("is-active");
+  });
 });
 
 //.attr('id', '' + i + j);
