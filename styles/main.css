@@ -1,8 +1,8 @@
 /* add your styling and layout CSS here */
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 .cont {
   width: 100%;
   height: 50vh;
@@ -17,10 +17,12 @@ a {
 
 .tennis-ball {
   display: block;
-  height: 300px;
+  height: 500px;
+  width: 500px;
   margin: auto;
-  margin-top: -220px;
-  padding-left: 50vw;
+  margin-top: -400px;
+  margin-right: 0px;
+  /* padding-left: 50vw; */
 }
 
 .stroke-text {
@@ -28,7 +30,7 @@ a {
 }
 
 .back-pic {
-  background-image: url("../images/temp_banner.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -40,7 +42,7 @@ a {
 }
 
 .about-us {
-  background-image: url("../images/temp_banner3.jpg");
+  background-image: url("../images/background2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
