@@ -59,9 +59,18 @@
 }
 
 /* Leagues Page */
+.leagues-heading {
+  text-decoration: underline;
+}
 
 .dotted-bottom {
   border-bottom: 1px dotted black;
+}
+
+.league-section {
+  background-color: #fafafa;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .center {
