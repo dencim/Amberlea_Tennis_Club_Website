@@ -19,6 +19,11 @@
   height: 50vh;
 }
 
+/* Membership button toggle */
+.only-small {
+  display: none;
+}
+
 /* Add no opacity to top part -> fill in bottom part */
 .bottom-shape {
   height: 100px;
@@ -76,6 +81,7 @@
 .center {
   margin: auto;
   width: 100%;
+  height: 100%;
 }
 .full-screen {
   height: 100vh;
@@ -123,5 +129,15 @@
     background-image: url("../images/background2.jpg");
     /* background-size: cover; */
     background-attachment: scroll;
+  }
+}
+
+/* CHANGE BUTTON TO GO DIRECTLY TO FORM */
+@media only screen and (max-width: 350px) {
+  .only-big {
+    display: none;
+  }
+  .only-small {
+    display: block;
   }
 }
