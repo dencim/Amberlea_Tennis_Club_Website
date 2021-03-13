@@ -33,12 +33,40 @@
 
 .tennis-ball {
   display: block;
-  height: 500px;
-  width: 500px;
+  height: 320px;
+  width: 320px;
   margin: auto;
-  margin-top: -400px;
-  margin-right: 0px;
+  margin-top: -200px;
+  margin-right: 100px;
   /* padding-left: 50vw; */
+}
+
+.maps-photo {
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin-top: -1em;
+  background-image: url("../images/map4.jpg");
+  background-size: cover;
+  border-radius: 0 0 160px 0;
+  border-left: solid rgb(219, 219, 219) 5px;
+  /* border: solid rgb(219, 219, 219) 5px; */
+  height: 300px;
+}
+
+.maps-photo:hover {
+  cursor: pointer;
+}
+.maps-photo img {
+  border-radius: 0 0 160px 0;
+  border-left: solid rgb(219, 219, 219) 5px;
+  height: 100%;
+}
+
+.maps-photo img:hover {
+  border-radius: 0 0 160px 0;
+  border-left: solid rgb(219, 219, 219) 5px;
+  width: 105%;
 }
 
 .stroke-text {
@@ -103,8 +131,8 @@
 
 @media only screen and (max-width: 1100px) {
   .tennis-ball {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin-top: -200px;
   }
 }
