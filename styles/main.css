@@ -44,11 +44,11 @@
 .maps-photo {
   display: block;
   text-align: left;
-  width: 98%;
+  width: 100%;
   margin-top: -1em;
   background-image: url("../images/map4.jpg");
   background-size: cover;
-  border-radius: 0 0 160px 0;
+  border-radius: 0 0 10px 0;
   border-left: solid rgb(219, 219, 219) 5px;
   /* border: solid rgb(219, 219, 219) 5px; */
   height: 300px;
@@ -58,16 +58,16 @@
   cursor: pointer;
 }
 .maps-photo img {
-  border-radius: 0 0 160px 0;
+  border-radius: 0 0 10px 0;
   border-left: solid rgb(219, 219, 219) 5px;
   height: 100%;
 }
 
-.maps-photo img:hover {
+/* .maps-photo img:hover {
   border-radius: 0 0 160px 0;
   border-left: solid rgb(219, 219, 219) 5px;
   width: 105%;
-}
+} */
 
 .stroke-text {
   -webkit-text-stroke: 1px rgb(56, 56, 56);
