@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What's New - Amberlea Tennis Club</title>
+    <title>Calendar - Amberlea Tennis Club</title>
     <!-- reference your stylesheet here -->
     <link rel="stylesheet" href="styles/main.css" />
     <link
@@ -17,6 +17,7 @@
     <!-- reference your source code here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/calendar.js"></script>
   </head>
   <body>
     <!-- your content goes here has-text-grey-darker -->
@@ -49,13 +50,16 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-start">
-                <a class="navbar-item has-text-info"> What's New </a>
-                <a class="navbar-item" href="calendar.html"> Calendar </a>
+                <a class="navbar-item" href="news-and-events.html">
+                  What's New
+                </a>
+                <!-- <a class="navbar-item" href="calendar.html"> Calendar </a> -->
+                <a class="navbar-item has-text-info"> Calendar </a>
                 <a class="navbar-item" href="leagues.html"> Leagues </a>
                 <a class="navbar-item" href="programs.html"> Programs </a>
                 <a class="navbar-item" href="membership.html"> Membership </a>
                 <a class="navbar-item" href="rules.html"> Rules </a>
-                <a class="navbar-item" href="contact.html"> Contact Us </a>
+                <a class="navbar-item"> Contact Us </a>
               </div>
             </div>
           </div>
@@ -63,63 +67,84 @@
 
         <div class="hero-body back-pic">
           <div class="container is-max-desktop">
-            <p class="title is-size-2 has-text-warning">What's New</p>
-            <!-- <p class="subtitle pt-2">
-              Events are suject to Covid-19 rules and protocols
-            </p> -->
+            <p class="title is-size-2 has-text-warning">Calendar</p>
+            <p class="subtitle pt-2">Monthly Schedule of activities</p>
           </div>
         </div>
       </section>
       <img src="images/bottom_.png" class="bottom-shape" />
 
       <!-- Content -->
-      <div class="container is-widescreen pb-6 pt-6">
-        <div class="columns p-2 m-0">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="images/b-league.jpg" alt="Placeholder image" />
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  We host and participate in a number of leagues available to
-                  members.
-                  <a class="" href="leagues.html"> See all leagues </a>
-                </div>
-              </div>
-            </div>
+      <div class="container is-max-desktop pb-6 pt-6">
+        <div class="calendar-container">
+          <div class="tabs is-toggle is-fullwidth">
+            <ul>
+              <li class="is-active" id="june">
+                <a>
+                  <span class="icon is-small"></span>
+                  <span>June</span>
+                </a>
+              </li>
+              <li id="july">
+                <a>
+                  <span class="icon is-small"></span>
+                  <span>July</span>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="images/raquet.jpg" alt="Placeholder image" />
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  Membership's are currently open for the 2021 summer season.
-                  <a class="" href="membership.html"> Apply for Membership </a>
-                </div>
-              </div>
+          <div class="june-calendar">
+            <div class="calendar-title">
+              <h1>Amberlea Tennis Club</h1>
+              <h2>June 2021</h2>
             </div>
+
+            <div class="days-section">
+              <ul class="weekdays">
+                <li>Su</li>
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+              </ul>
+
+              <ul class="days days-june"></ul>
+            </div>
+
+            <a
+              class="button is-warning mt-3"
+              target="none"
+              href="images/2021-June-Calendar.pdf"
+              >Download June Calendar</a
+            >
           </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="images/temp2.jpg" alt="Placeholder image" />
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  Please adhere to public safety guidelines regarding social
-                  distancing <br />
-                </div>
-              </div>
+          <div class="july-calendar invisible">
+            <div class="calendar-title">
+              <h1>Amberlea Tennis Club</h1>
+              <h2>July 2021</h2>
             </div>
+
+            <div class="days-section">
+              <ul class="weekdays">
+                <li>Su</li>
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+              </ul>
+
+              <ul class="days days-july"></ul>
+            </div>
+            <a
+              class="button is-warning mt-3"
+              href="images/2021-July-Calendar.pdf"
+              target="none"
+              >Download July Calendar</a
+            >
           </div>
         </div>
       </div>
