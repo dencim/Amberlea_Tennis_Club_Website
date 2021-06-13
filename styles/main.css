@@ -275,6 +275,12 @@
     /* background-size: cover; */
     background-attachment: scroll;
   }
+  .weekdays li {
+    width: 13%;
+  }
+  .calendar-title {
+    font-size: 1.2em;
+  }
 }
 
 /* CHANGE BUTTON TO GO DIRECTLY TO FORM */
