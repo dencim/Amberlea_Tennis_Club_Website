@@ -213,7 +213,7 @@
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 0.85em;
   color: #777;
   vertical-align: text-top;
   min-height: 55px;
@@ -281,6 +281,9 @@
   .calendar-title {
     font-size: 1.2em;
   }
+  .days li {
+    font-size: 0.65em;
+  }
 }
 
 /* CHANGE BUTTON TO GO DIRECTLY TO FORM */
@@ -290,5 +293,8 @@
   }
   .only-small {
     display: block;
+  }
+  .days li {
+    font-size: 0.45em;
   }
 }
