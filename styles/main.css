@@ -240,6 +240,20 @@
   border: 1px solid rgb(216, 216, 216);
 }
 
+.important-notice-card {
+  margin-top: -30px;
+}
+
+.important-notice-card-header {
+  background-color: #d5df1b !important;
+}
+
+.closed-notification-message {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
 /* Calendar Done */
 
 @media only screen and (max-width: 1100px) {
