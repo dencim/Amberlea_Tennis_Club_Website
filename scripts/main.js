@@ -21,10 +21,11 @@ $(document).ready(function () {
     $(".modal").toggleClass("is-active");
   });
 
-  if (TODAY >= START_REGISTRATION_OUTAGE && TODAY <= END_REGISTRATION_OUTAGE) {
-    $(".closed-notification-message").removeClass("invisible");
-    console.log("In outage");
-  }
+  //DISPLAY OUTAGE NOTFICATION
+  // if (TODAY >= START_REGISTRATION_OUTAGE && TODAY <= END_REGISTRATION_OUTAGE) {
+  //   $(".closed-notification-message").removeClass("invisible");
+  //   console.log("In outage");
+  // }
 });
 
 //.attr('id', '' + i + j);
