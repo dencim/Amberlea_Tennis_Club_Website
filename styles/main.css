@@ -256,6 +256,13 @@
 
 /* Calendar Done */
 
+/* Temp Calendar */
+
+.tempCal {
+  min-height: 10em;
+  font-size: 2em;
+}
+
 @media only screen and (max-width: 1100px) {
   .tennis-ball {
     height: 250px;
