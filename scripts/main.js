@@ -20,6 +20,10 @@ $(document).ready(function () {
     // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
     $(".modal").toggleClass("is-active");
   });
+  $(".faq").click(function () {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".modal").toggleClass("is-active");
+  });
 
   //DISPLAY OUTAGE NOTFICATION
   // if (TODAY >= START_REGISTRATION_OUTAGE && TODAY <= END_REGISTRATION_OUTAGE) {
