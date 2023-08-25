@@ -3,127 +3,108 @@ const JUNE = {
   daysBeforeStart: "2",
   daysInMonth: 30,
   1: "",
-  2: `WED AM TENNIS <br/> 9-11 am`,
+  2: "",
   3: "",
-  4: "MIXED SENIOR \n DOUBLES \n 8-10 am",
+  4: "",
   5: "",
   6: "",
-  7: "MIXED SENIOR \n DOUBLES \n 8-10 am",
-  8: `Jr Program <br/> 5-6pm  2 courts <br/> 6-7pm  1 court <br/><br/>
-     ADULT TENNIS <br/> 7-10 pm`,
-  9: `WED AM TENNIS <br/> 9-11 am`,
+  7: "",
+  8: "",
+  9: "",
   10: "",
-  11: "MIXED SENIOR \n DOUBLES \n 8-10 am",
+  11: "",
   12: "",
   13: "",
-  14: "MIXED SENIOR \n DOUBLES \n 8-10 am",
-  15: `Jr Program <br/> 5-6pm  2 courts <br/> 6-7pm  1 court <br/><br/>
-  ADULT TENNIS <br/> 7-10 pm`,
-  16: `WED AM TENNIS <br/> 9-11 am`,
+  14: "",
+  15: "",
+  16: "",
   17: "",
-  18: "MIXED SENIOR \n DOUBLES \n 8-10 am",
+  18: "",
   19: "",
   20: "",
-  21: "MIXED SENIOR \n DOUBLES \n 8-10 am",
-  22: `Jr Program <br/> 5-6pm  2 courts <br/> 6-7pm  1 court <br/><br/>
-  ADULT TENNIS <br/> 7-10 pm`,
-  23: `WED AM TENNIS <br/> 9-11 am`,
+  21: "",
+  22: "",
+  23: "",
   24: "",
-  25: "MIXED SENIOR \n DOUBLES \n 8-10 am",
+  25: "",
   26: "",
   27: "",
-  28: "MIXED SENIOR \n DOUBLES \n 8-10 am",
-  29: `Jr Program <br/> 5-6pm  2 courts <br/> 6-7pm  1 court <br/><br/>
-  ADULT TENNIS <br/> 7-10 pm`,
-  30: `WED AM TENNIS <br/> 9-11 am`,
-  31: "MIXED SENIOR \n DOUBLES \n 8-10 am", //TYPO?
+  28: "",
+  29: "",
+  30: "",
+  31: "", //TYPO?
 };
 
 const JULY = {
-  daysBeforeStart: "4",
-  daysInMonth: 31,
-  1: "Canada Day",
-  2: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  daysBeforeStart: "6",
+  daysInMonth: 29,
+  1: "",
+  2: "",
   3: "",
-  4: "",
-  5: `<b>NIKE SUMMER CAMP 9-3:30
-    2 courts 
-    10-12:30/2-3:30
-    1 court 9-10/1-2 </b>`,
-  6: `<b>NIKE SUMMER CAMP 9-3:30
-  2 courts 
-  10-12:30/2-3:30
-  1 court 9-10/1-2 </b>`,
-  7: `<b>NIKE SUMMER CAMP 9-3:30
-  2 courts 
-  10-12:30/2-3:30
-  1 court 9-10/1-2 </b>`,
-  8: `<b>NIKE SUMMER CAMP 9-3:30
-  2 courts 
-  10-12:30/2-3:30
-  1 court 9-10/1-2 </b>`,
-  9: `<b>NIKE SUMMER CAMP 9-3:30
-  2 courts 
-  10-12:30/2-3:30
-  1 court 9-10/1-2 </b>`,
-  10: "",
-  11: "",
-  12: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  13: `ADULT TENNIS <br/> 7-10 pm `,
-  14: `WED AM TENNIS <br/> 9-11 am`,
+  4: "Adult House League: 7pm - 10pm",
+  5: "",
+  6: "",
+  7: "",
+  8: "",
+  9: "",
+  10: "Junior Camp: 9:00am – 12:00pm 1:00pm – 4:00pm (courts 1 & 2)",
+  11: "Junior Camp: 9:00am – 12:00pm 1:00pm – 4:00pm (courts 1 & 2) <br/><br/>  Adult House League: 7pm - 10pm",
+  12: "Junior Camp: 9:00am – 12:00pm 1:00pm – 4:00pm (courts 1 & 2)",
+  13: "Junior Camp: 9:00am – 12:00pm 1:00pm – 4:00pm (courts 1 & 2)",
+  14: "Junior Camp: 9:00am – 12:00pm 1:00pm – 4:00pm (courts 1 & 2)",
   15: "",
-  16: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  16: "",
   17: "",
-  18: "",
-  19: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  20: `ADULT TENNIS <br/> 7-10 pm `,
-  21: `WED AM TENNIS <br/> 9-11 am`,
+  18: "Adult House League: 7pm - 10pm",
+  19: "",
+  20: "",
+  21: "",
   22: "",
-  23: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  23: "",
   24: "",
-  25: "",
-  26: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  27: `ADULT TENNIS <br/> 7-10 pm `,
-  28: `WED AM TENNIS <br/> 9-11 am`,
+  25: "Adult House League: 7pm - 10pm",
+  26: "",
+  27: "",
+  28: "",
   29: "",
-  30: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  30: "",
   31: "",
 };
 
 const AUGUST = {
-  daysBeforeStart: "0",
+  daysBeforeStart: "2",
   daysInMonth: 31,
-  1: "",
-  2: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  3: `Adult House <br/> League 7-10 pm`,
-  4: `WED AM TENNIS <br/> 9-11 am`,
+  1: "Ladies League: 9am to 12noon (crts 1+2) <br/><br/> Adult House League: 7pm - 10pm",
+  2: "",
+  3: "",
+  4: "",
   5: ``,
-  6: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  6: "",
   7: ``,
-  8: ``,
-  9: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  10: `Adult House <br/> League 7-10 pm`,
-  11: `WED AM TENNIS <br/> 9-11 am`,
+  8: `Adult House League: 7pm - 10pm`,
+  9: "",
+  10: "",
+  11: "",
   12: ``,
-  13: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  13: "",
   14: ``,
-  15: "",
-  16: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  17: `Adult House <br/> League 7-10 pm`,
-  18: `WED AM TENNIS <br/> 9-11 am`,
+  15: "Ladies League: 9am to 12noon (crts 1+2) <br/><br/> Adult House League: 7pm - 10pm",
+  16: "",
+  17: "",
+  18: "",
   19: ``,
-  20: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  20: "",
   21: ``,
-  22: "",
-  23: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  24: `Adult House <br/> League 7-10 pm`,
-  25: `WED AM TENNIS <br/> 9-11 am`,
+  22: "Adult House League: 7pm - 10pm",
+  23: "",
+  24: "",
+  25: "",
   26: ``,
-  27: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
+  27: "",
   28: ``,
-  29: "",
-  30: `MIXED SENIOR <br/> DOUBLES <br/> 8-9:30 am <b>2 courts</b> <br/> 9:30-11am <b>1 court </b>`,
-  31: `Adult House <br/> League 7-10 pm`,
+  29: "Adult House League: 7pm - 10pm",
+  30: "",
+  31: "",
 };
 
 $(document).ready(function () {
@@ -193,8 +174,8 @@ $(document).ready(function () {
   //august
   $(".days-august").append(() => {
     //empty days
-    //let emptyDays = "<li></li>";
-    //emptyDays = emptyDays.repeat(AUGUST.daysBeforeStart); //DONT NEED BECAUSE 0 DAYS
+    let emptyDays = "<li></li>";
+    emptyDays = emptyDays.repeat(AUGUST.daysBeforeStart); //DONT NEED BECAUSE 0 DAYS
 
     //full days
     let daysHtml = "";
@@ -202,6 +183,6 @@ $(document).ready(function () {
       daysHtml += `<li> ${i} <p>${AUGUST[i]}</p></li>`;
     }
 
-    return daysHtml;
+    return emptyDays + daysHtml;
   });
 });
